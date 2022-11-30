@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZXETcztNEpmpBGOsRxd1bqUajcAFQmI0KkCrFWnQA8w=",
+  "Source": "CanadaTaxCalculator",
+  "BasePath": "_content/CanadaTaxCalculator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
