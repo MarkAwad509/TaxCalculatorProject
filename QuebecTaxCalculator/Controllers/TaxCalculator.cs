@@ -19,7 +19,7 @@ namespace QuebecTaxCalculator.Controllers {
             double payable = 0;
 
             for (int i = 0; i < rates.Count; i++) {
-                if (income <= rates[i].High)
+                if (income < rates[i].High)
                     payable = payable + (income - rates[i].Low) * (rates[i].Rate / 100);
                 else
                     payable = payable + (rates[i].High - rates[i].Low) * (rates[i].Rate / 100);
