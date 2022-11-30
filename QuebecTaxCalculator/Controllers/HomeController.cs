@@ -2,7 +2,7 @@
 
 namespace TaxCalculator.Controllers {
     public class HomeController : ControllerBase {
-        [Route("/qc")]
+        [Route("/")]
         [HttpGet]
         public string GetWelcomMessage() {
             return "Welcome to Quebec Income Tax Calculator 2021 API";

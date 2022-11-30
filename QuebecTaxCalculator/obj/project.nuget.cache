@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KE3myF4SWnnhXPs8/MQfw8+EXWjQsyreoq+ZOcsAs09Hfkrv8Yj7po4aYOCI+vkd13/2SdabypnoZ9vgerPffw==",
+  "dgSpecHash": "Cw24kDU9ejJKTjRqyvmwpU4W41iDhM8G58+haTLjON5PTWtt673oqjBcS7nUCFoht6FhBhCLemyKno2NJmem9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\QuebecIncomeTaxCalculator\\QuebecTaxCalculator.csproj",
+  "projectFilePath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\QuebecTaxCalculator\\QuebecTaxCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mark\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Mark\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -2,8 +2,6 @@
 using TaxCalculator.Models;
 using TaxCalculator.Services;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace TaxCalculator.Controllers {
     [ApiController]
     [Route("/api/taxrate")]

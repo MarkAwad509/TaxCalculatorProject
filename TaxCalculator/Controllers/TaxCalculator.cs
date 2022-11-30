@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Diagnostics;
 using TaxCalculator.Services;
 
 namespace IncomeTaxCalculator.Controllers {
@@ -7,20 +9,21 @@ namespace IncomeTaxCalculator.Controllers {
     [ApiController]
     public class TaxCalculator : ControllerBase {
         private readonly TaxRateService _taxRateService;
-        private CanadaTaxCalculator.Controllers.TaxCalculator canadaTaxCalculator;
-        private QuebecTaxCalculator.Controllers.TaxCalculator quebecTaxCalculator;
 
         public TaxCalculator(TaxRateService taxRateService) {
-            this._taxRateService = taxRateService;
-            this.canadaTaxCalculator = new CanadaTaxCalculator.Controllers.TaxCalculator();
-            this.quebecTaxCalculator = new QuebecTaxCalculator.Controllers.TaxCalculator();
+            _taxRateService = taxRateService;
         }
 
         [HttpGet("{income}")]
-        public async Task<object> calculateIncomeTax(double income) {
-            var canadaTax = await canadaTaxCalculator.calculateIncomeTax(income);
-            var quebecTax = await quebecTaxCalculator.calculateIncomeTax(income);
-            return (canadaTax, quebecTax);
+        public async Task<string> calculateIncomeTax(double income) {
+            var qcPayable = await _taxRateService.GetQuebecPayable(income);
+            var caPayable = await _taxRateService.GetCanadaPayable(income);
+
+            var total = qcPayable + caPayable;
+            var net = income - total;
+
+            return $"Total payable amount: {total}," +
+                $"Net income: {net}";
         }
     }
 }

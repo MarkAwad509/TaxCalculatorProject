@@ -10569,11 +10569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\QuebecIncomeTaxCalculator\\QuebecTaxCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\QuebecTaxCalculator\\QuebecTaxCalculator.csproj",
       "projectName": "QuebecTaxCalculator",
-      "projectPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\QuebecIncomeTaxCalculator\\QuebecTaxCalculator.csproj",
+      "projectPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\QuebecTaxCalculator\\QuebecTaxCalculator.csproj",
       "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\QuebecIncomeTaxCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\QuebecTaxCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10652,7 +10652,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

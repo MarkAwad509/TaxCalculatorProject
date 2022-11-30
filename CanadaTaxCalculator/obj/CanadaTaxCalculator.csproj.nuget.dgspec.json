@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj": {}
+    "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj": {
+    "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj",
         "projectName": "CanadaTaxCalculator",
-        "projectPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj",
+        "projectPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\CanadaTaxCalculator\\CanadaTaxCalculator.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\CanadaTaxCalculator\\obj\\",
+        "outputPath": "C:\\Users\\Mark\\Desktop\\School\\Aut2022\\Net3\\TaxCalculatorProject\\CanadaTaxCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
