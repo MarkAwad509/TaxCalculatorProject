@@ -14,6 +14,8 @@ builder.Services.AddDbContext<TaxRateContext>(options => options.UseMySql(
 
 builder.Services.AddScoped<TaxRateService>();
 
+builder.Services.AddHealthChecks();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,6 +31,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapHealthChecks("/health");
 
 app.MapControllerRoute(
     name: "default",
